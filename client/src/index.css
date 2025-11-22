@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Global custom styles */
+
+body {
+  @apply bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white font-sans;
+}
+
+input, select, textarea {
+  @apply p-2 w-full mb-3 rounded-lg border border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white;
+}
